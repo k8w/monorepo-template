@@ -14,11 +14,13 @@
     "publish:prod": "echo TODO"
   },
   "devDependencies": {
+    "@changesets/cli": "^2.26.0",
     "@nrwl/esbuild": "15.7.0",
     "@nrwl/eslint-plugin-nx": "15.7.0",
     "@nrwl/jest": "15.7.0",
     "@nrwl/js": "15.7.0",
     "@nrwl/linter": "15.7.0",
+    "@nrwl/rollup": "^15.7.0",
     "@nrwl/workspace": "15.7.0",
     "@types/jest": "28.1.1",
     "@types/node": "18.7.1",

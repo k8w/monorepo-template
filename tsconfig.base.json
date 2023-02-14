@@ -15,7 +15,8 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@k8w-test/sub1": ["packages/sub1/src/index.ts"]
+      "@k8w-test/sub1": ["packages/sub1/src/index.ts"],
+      "@k8w-test/sub2": ["packages/sub2/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

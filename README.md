@@ -10,6 +10,11 @@
 
 ## 开发常用命令
 
+- `nx lint 项目名`
+- `nx test 项目名`
+- `nx build 项目名`
+- `nx publish 项目名`
+
 ### 创建新的子项目
 
 通过 NX Generator 来创建：
@@ -17,3 +22,4 @@
 ```
 npx nx g lib --name=sub1 --importPath=@k8w-test/monorepo-template-subrepo-1 --buildable --publishable --bundler=esbuild
 ```
+npx nx g lib --name=sub1 --bundler=esbuild

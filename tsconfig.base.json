@@ -17,11 +17,7 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {
-      "@k8w-test/monorepo-template-subrepo-1": [
-        "packages/sub1/src/index.ts"
-      ]
-    }
+    "paths": {}
   },
   "exclude": [
     "node_modules",

@@ -15,5 +15,5 @@
 通过 NX Generator 来创建：
 
 ```
-npx nx g lib --name=sub2 --importPath=@k8w-test/monorepo-template-subrepo-2 --buildable --publishable --bundler=esbuild
+npx nx g lib --name=sub1 --importPath=@k8w-test/monorepo-template-subrepo-1 --buildable --publishable --bundler=esbuild
 ```

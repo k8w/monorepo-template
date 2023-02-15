@@ -1,9 +1,6 @@
 {
   "name": "@k8w-test/monorepo-template",
   "private": true,
-  "workspaces": [
-    "packages/*"
-  ],
   "scripts": {
     "lint": "nx run-many --target=lint",
     "test": "nx run-many --target=test",
@@ -14,31 +11,6 @@
     "publish:prod": "echo TODO"
   },
   "devDependencies": {
-    "@changesets/cli": "^2.26.0",
-    "@nrwl/esbuild": "15.7.0",
-    "@nrwl/eslint-plugin-nx": "15.7.0",
-    "@nrwl/jest": "15.7.0",
-    "@nrwl/js": "15.7.0",
-    "@nrwl/linter": "15.7.0",
-    "@nrwl/rollup": "^15.7.0",
-    "@nrwl/workspace": "15.7.0",
-    "@types/jest": "28.1.1",
-    "@types/node": "18.7.1",
-    "@typescript-eslint/eslint-plugin": "^5.36.1",
-    "@typescript-eslint/parser": "^5.36.1",
-    "esbuild": "^0.17.5",
-    "eslint": "~8.15.0",
-    "eslint-config-prettier": "8.1.0",
-    "jest": "28.1.1",
-    "jest-environment-jsdom": "28.1.1",
-    "lerna": "^6.5.0",
-    "nx": "^15.7.0",
-    "prettier": "^2.6.2",
-    "ts-jest": "28.0.5",
-    "ts-node": "10.9.1",
-    "typescript": "^4.9.5"
-  },
-  "dependencies": {
-    "tslib": "^2.3.0"
+    "lerna": "^6.5.0"
   }
 }
